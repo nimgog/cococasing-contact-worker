@@ -5,12 +5,12 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 # Set this to true for testing the Coco Casing app locally
-CORS_ALLOW_LOCALHOST = false
+CORS_ALLOW_LOCALHOST = true
 
 USE_FAKE_EMAIL_SENDING = false
 SHOULD_FAKE_EMAIL_SENDING_FAIL = false
-RECIPIENT_EMAIL = "ditrichb@gmail.com"
-RECIPIENT_NAME = "Bence Ditrich"
+RECIPIENT_EMAIL = "contact@cococasing.se"
+RECIPIENT_NAME = "Coco Casing - Contacts"
 
 USE_FAKE_SITEVERIFY = false
 SHOULD_FAKE_SITEVERIFY_FAIL = false

@@ -32,6 +32,8 @@ There is only one environment secret that must be set, named `TURNSTILE_SECRET_K
 
 To set it from the CLI, run `npx wrangler secret put TURNSTILE_SECRET_KEY` and provide the key in the next prompt.
 
+To test the deployed app together with a locally hosted Coco Casing app, `TURNSTILE_SECRET_KEY` can be set to one of the keys from the [Testing](https://developers.cloudflare.com/turnstile/reference/testing) page of Turnstile docs.
+
 Run `npm run deploy` to publish the worker.
 
 > Deployments initiated from the daskboard and the ones initiated from the CLI can override each others' configuration, so use them with caution!
