@@ -5,7 +5,7 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 # Set this to true for testing the Coco Casing app locally
-CORS_ALLOW_LOCALHOST = true
+CORS_ALLOW_LOCALHOST = false
 
 USE_FAKE_EMAIL_SENDING = false
 SHOULD_FAKE_EMAIL_SENDING_FAIL = false
