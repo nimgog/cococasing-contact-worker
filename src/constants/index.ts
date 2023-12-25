@@ -6,7 +6,7 @@ export default {
   TURNSTILE_SITEVERIFY_API_URL: 'https://challenges.cloudflare.com/turnstile/v0/siteverify',
 
   CORS_HEADERS: {
-    'Access-Control-Allow-Origin': 'cococasing.se',
+    'Access-Control-Allow-Origin': 'https://cococasing.se',
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
   },
